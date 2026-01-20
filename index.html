@@ -4,17 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pajarillaga</title>
+
+    <style> 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20;
+            padding: 20;    
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            padding-top: 20px;
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #444;
+            border-left: 5px solid #222222;
+            padding-left: 20px;
+        }
+
+        h4, h5 {
+            color: black;
+            padding-left: 20px;
+
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: gray;
+            text-align: justify;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #contact_info {
+            font-size: medium;
+            padding-bottom: 20px;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: rgb(255, 114, 236);
+            text-decoration: underline;
+        }
+
+        em {
+            color: rgb(48, 47, 47);
+            font-style: italic;
+        }
+        
+    </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
         <h1> PAJARILLAGA_BIOGRAPHY </h1>
         <h2> A short introduction about myself </h2>
         <hr>
 
         <!--- PICTURE --->
-        <img src="images/sanemi.jpg" alt="Pajarillaga Picture" width="1313" height="736">
+        <img src="images/catto.jpg" alt="Pajarillaga Picture" width="474" height="400">
 
-
+    
         <!--- ABOUT ME --->
         <div>
             <h2> About Me </h2>
@@ -62,7 +142,7 @@
 
        <!--- CONTACT -->
        <h5> Contact Me </h5>
-       <p> You can find my GitHub profile at <a href="https://github.com/elixzyrrr"> GitHub Profile </a> </p>
+       <p id="contact_info"> You can find my GitHub profile at <a href="https://github.com/elixzyrrr"> GitHub Profile </a> </p>
 
 
 
